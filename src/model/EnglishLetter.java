@@ -4,8 +4,9 @@ package model;
 public class EnglishLetter {
     private char letter; //english letter this object is
     private int position; //position in alphabet for easier tracking
-    public EnglishLetter(char letter){
+    public EnglishLetter(char letter, int position){
         this.letter = letter;
+        this.position = position;
     }
 
     public void setLetter(char letter){
